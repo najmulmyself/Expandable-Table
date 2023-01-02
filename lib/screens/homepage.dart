@@ -10,11 +10,11 @@ class ShowTable extends StatelessWidget {
       ),
       appBar: AppBar(
         leading: Builder(
-            builder: (context) => IconButton(
-                  icon: const Icon(Icons.abc),
-                  onPressed: () => Scaffold.of(context).openDrawer(),
-                )),
-        // leading: Icon(Icons.abc),
+          builder: (context) => IconButton(
+            icon: const Icon(Icons.menu),
+            onPressed: () => Scaffold.of(context).openDrawer(),
+          ),
+        ),
         title: const Text('Table Data'),
         centerTitle: true,
         elevation: 0,
